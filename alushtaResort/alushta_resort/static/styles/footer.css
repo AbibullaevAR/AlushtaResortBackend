@@ -1,0 +1,74 @@
+.footer {
+    padding: 53px 53px;
+    background-color: #14274A;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+
+
+.footer__info {
+    line-height: 20px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer .hotel-name {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer__media {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer__media-content {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__media-content img {
+    width: 18px;
+    height: 18px;
+}
+
+.footer__subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer__subscribe-email {
+    padding: 15px 80px 15px 30px;
+    border: 1px solid #E0B973;
+    border-radius: 5px;
+    color: #E0B973; 
+    background-color: #14274A;
+}
+
+.footer__subscribe-email::placeholder {
+    color: rgba(224, 185, 115, 0.5);
+  }
+
+  .footer__subscribe-button {
+    padding: 16px 27px 16px 27px;
+    color: #000;
+    border-radius: 5px;
+    background: #E0B973;
+    transform: translateX(-15px);
+    font-weight: bold;
+  }
+  .footer__subscribe-placeholder {
+    display: flex;
+  }

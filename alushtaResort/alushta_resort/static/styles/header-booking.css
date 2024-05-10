@@ -1,0 +1,69 @@
+.header {
+    padding: 93px 224px 93px 224px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    max-height: 1020px;
+    font-size: 25px;
+    position: relative;
+    background-color: #14274A;
+    gap: 50px;
+}
+
+.hotel-name {
+    font-family: "MonteCarlo", cursive;
+    letter-spacing: 0.5em;
+}
+
+.header__icon {
+    background-color: #E0B973;
+    padding: 35px 26px 35px 26px;
+    display: block;
+    max-height: 146px;
+    width: 270px;
+    border-radius: 50px;
+    font-size: 32px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    filter: drop-shadow(0 0 3px rgba(0,0,0,0.5));
+    color: black;
+    line-height: 1.6em;
+}
+
+.header__upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
+
+.header__navigation {
+    display: flex;
+    gap:20px;
+}
+
+.header__info {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    z-index: 2;
+}
+
+.header__title {
+    display: flex;
+    justify-content: center;
+}
+
+.header__title {
+    font-weight: bold;
+    font-size: 80px;
+}   
+
+.header__navigation-item_active {
+    text-decoration: underline;
+}

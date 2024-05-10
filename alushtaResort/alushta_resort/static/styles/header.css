@@ -1,0 +1,82 @@
+.header {
+    padding: 93px 224px 93px 224px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    max-height: 1020px;
+    background-image: var(--bg-image);
+    font-size: 25px;
+    position: relative;
+    
+    background-size: cover; /* Растянуть изображение, чтобы оно покрывало всю область фона */
+    background-repeat: no-repeat; /* Запретить повторение фонового изображения */
+    background-position: center center; /* Положение изображения по центру */
+}
+
+
+.header__icon {
+    background-color: #E0B973;
+    padding: 35px 26px 35px 26px;
+    display: block;
+    max-height: 146px;
+    width: 270px;
+    border-radius: 50px;
+    font-size: 32px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    filter: drop-shadow(0 0 3px rgba(0,0,0,0.5));
+    color: black;
+    line-height: 1.6em;
+}
+
+.hotel-name {
+    font-family: "MonteCarlo", cursive;
+    letter-spacing: 0.5em;
+}
+
+.title-text {
+    font-size: 96px;
+    line-height: 1.6em;
+}
+
+.header__upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
+
+.header__navigation {
+    display: flex;
+    gap:20px;
+}
+
+.header__navigation-item_active {
+    text-decoration: underline;
+}
+
+.header__booking {
+display: flex;
+justify-content: center;
+}
+
+.header__booking-button {
+    padding: 22px 26px 22px 26px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    background-color: #E0B973;
+    justify-content: center;
+}
+
+.header__info {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    z-index: 2;
+}

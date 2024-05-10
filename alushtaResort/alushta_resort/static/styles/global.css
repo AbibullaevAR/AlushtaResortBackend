@@ -1,0 +1,63 @@
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-inline-size: 375px;
+  max-inline-size: 1920px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+picture {
+  margin: 0;
+  padding: 0;
+}
+
+button,
+a {
+  color: currentColor;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-decoration: none;
+}
+
+.decorated-zone {
+  position: absolute;
+  height: 100%;
+  width:100%;
+  opacity: 40%;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  z-index: 1;
+}
+
+.shadow {
+  text-shadow:
+        -1px -1px 0 #000,  
+        5px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000; 
+}

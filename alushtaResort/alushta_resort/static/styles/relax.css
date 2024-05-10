@@ -1,0 +1,48 @@
+.main__relax {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap:20px;   
+    overflow: hidden;
+}
+
+.main__relax h2 {
+    font-weight: 400;
+    font-size: 60px;
+}
+
+.main__relax-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main__relax p {
+    font-size: 30px;
+}
+
+.quote {
+    font-weight: 600;
+}
+
+.main__relax-slider {
+    display: flex;
+    gap: 22px;
+}
+
+.main__relax-slider-button {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+    background-color: #E0B973;
+    border: none;
+    border-radius:10px ;
+    height: 50px;
+    width: 50px;
+}
+
+.next {
+    transform: rotate(180deg);
+}
