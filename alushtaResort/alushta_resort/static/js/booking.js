@@ -16,11 +16,11 @@
             method: 'POST',
             body: bookingForm
         }).then(request => {
-            console.log(request.status)
-        }).catch((error) => {
-            console.log(error.status)
-        }).finally(() => {
-            buttonFormElem.innerHTML = getSendButtonHTML();
+            if (request.status >= 400) {
+                buttonFormElem.innerHTML = getSendButtonHTML(true);
+            } else {
+                buttonFormElem.innerHTML = getSendButtonHTML(false);
+            }
         })
     })
 
@@ -30,8 +30,13 @@
                 </button>`
     }
 
-    function getSendButtonHTML() {
-        return `<button type="button">
+    function getSendButtonHTML(isError) {
+        return `
+        ${isError ? 
+            '<span class="main__booking-form-status main__booking-form-status_error">Error</span>'
+            : '<span class="main__booking-form-status main__booking-form-status_success">Ok</span>'
+        }
+                <button type="button">
                     Отправить
                 </button>`
     }

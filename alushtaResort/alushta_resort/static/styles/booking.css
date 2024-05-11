@@ -72,6 +72,7 @@
 
 .input-button {
     display: flex;
+    align-items: center;
     justify-content: flex-end;
 }
 
@@ -82,4 +83,18 @@
     background-color: #E0B973;
     border: none;
     font-weight: bold;
+    margin-left: auto;
+}
+
+.main__booking-form-status {
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+}
+
+.main__booking-form-status_error {
+    color: red;
+}
+
+.main__booking-form-status_success {
+    color: green;
 }
