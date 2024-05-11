@@ -55,6 +55,9 @@
 
 .input-text {
     height: 78px;
+    font-family: "Montserrat", sans-serif;
+    padding: 3%;
+    font-size: 20px;
 }
 
 .input-message {
@@ -62,6 +65,9 @@
     max-width: 570px;
     word-break: break-all;
     outline: 1px solid black;
+    font-family: "Montserrat", sans-serif;
+    padding: 3%;
+    font-size: 20px;
 }
 
 .input-button {
